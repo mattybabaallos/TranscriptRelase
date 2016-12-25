@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Transcipt.exe" version="1.0.0.0" publicKeyToken="56c8bcff170b8aee" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Transcipt" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Transcipt.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HtmlAgilityPack.dll" size="132608">
+      <assemblyIdentity name="HtmlAgilityPack" version="1.4.9.5" publicKeyToken="BD319B19EAF3B43A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0wRkMMxsmVD2JVWyS1z4euhLiiZXxjJ8Akk2nr5sNLE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialDesignColors.dll" size="229376">
+      <assemblyIdentity name="MaterialDesignColors" version="1.1.3.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KV5clXU2BcQ8ydnSGKbo3g2hmrkXIlKoDUpy22X3msQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialDesignThemes.Wpf.dll" size="4475904">
+      <assemblyIdentity name="MaterialDesignThemes.Wpf" version="2.2.1.750" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>06EvYVkFhtkz7rc5zo9GMsYayIeA8wyAXAJ8TglbqYo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Transcipt.exe" size="29152">
+      <assemblyIdentity name="Transcipt" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>AyBojFTMQbb6WZI3lsZIUF69xoAbO9ZTHcjfdkVw2PY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Transcipt.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-NVGFJ5K\Matty" issuerKeyHash="faff8e3cefe2f020d0ac8ea2516b2bfcb6dd7c87" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>POADJfK3dD1JdOKx9XQp4HCtNF8eGZIE2vNbahg58+8=</DigestValue></Reference></SignedInfo><SignatureValue>PIML5b2Yz/9nZbMh6Rhm/psdnh3G9YRz2H5mOjmH1E5Su4UpxDcKPS/BbLu2ZG0aSFhunNZ2ymVWrPisCvyehJv+l3zM6wSAtCGdOEveZel7VAuVujPUx0gEoJPAVJI6PjPWpaezQmsJN7mHxy2ut3iP1fLQfpvYuxmQAmzET1w=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wIRtzOqGDa68c1QpqxKxoAPJBGe9fQwLgLHE4EuC0f+yOW9V9ov0I5XPMdNyfHm7KbHB/1I6po+8KhEkKrLA+kCsxc8GVPcDaqoopBVJuXgiEAbG1HAsq/kKdsUc0UzbzkmWYtIWYdSC5NZW+kuitu3D/HF993QnBWcvrds2VSM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="eff339186a5bf3da0492191e5f34ad70e02974f5b1e274493d74b7f22503e03c" Description="" Url=""><as:assemblyIdentity name="Transcipt.exe" version="1.0.0.0" publicKeyToken="56c8bcff170b8aee" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-NVGFJ5K\Matty</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pd5GlLxL8yYTC7SVjAa4wBVZEEitDrUFzjM7IY5Gc20=</DigestValue></Reference></SignedInfo><SignatureValue>eN6pZ04DI3zXR/DdoLO/V/ZOXytsWDs6yfsDHQT5gDyf8eWbKLqATiUrAZ6PQo9SAylTgxX6DWSrbJED9zwzvvTTOWtAy726Z2PB/+ZenspNtC+1lBSz7Pk6g+F5Ag5kuNGO8DoqqUxdYig9g7ZxDrh+Gx7xhgsuKK1tPBWLhaM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wIRtzOqGDa68c1QpqxKxoAPJBGe9fQwLgLHE4EuC0f+yOW9V9ov0I5XPMdNyfHm7KbHB/1I6po+8KhEkKrLA+kCsxc8GVPcDaqoopBVJuXgiEAbG1HAsq/kKdsUc0UzbzkmWYtIWYdSC5NZW+kuitu3D/HF993QnBWcvrds2VSM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQcdnEXnXFmbNDi9PAoBs0NTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAE4AVgBHAEYASgA1AEsAXABNAGEAdAB0AHkwHhcNMTYxMjI1MDkyNjQ2WhcNMTcxMjI1MTUyNjQ2WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAE4AVgBHAEYASgA1AEsAXABNAGEAdAB0AHkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMCEbczqhg2uvHNUKasSsaADyQRnvX0MC4CxxOBLgtH/sjlvVfaL9COVzzHTcnx5uymxwf9SOqaPvCoRJCqywPpArMXPBlT3A2qqKKQVSbl4IhAGxtRwLKv5CnbFHNFM285JlmLSFmHUguTWVvpLorbtw/xxffd0JwVnL63bNlUjAgMBAAEwDQYJKoZIhvcNAQELBQADgYEANGUuGc3RcHwNBZ687/QicXAT7OIZYThMeirY3FCsx7uSjMAN7gfZrvIR7a86Tje4IjuRoPdCJRe0RvJmyV7t35hy4Om849MhI+5ZEgNEqBr+O4tXXdKJMm2REXHNYcQwGg1SfejXGigWcCs7nT8kpG2xIiJ2WkFECDHc9ocYPVI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
